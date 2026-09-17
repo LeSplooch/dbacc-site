@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="DBACC">
+  <!-- The app shipped with href="/vite.svg", which does not exist in this
+       repo, so the tab and the taskbar showed a broken-image glyph. -->
+  <rect width="32" height="32" rx="3" fill="#0d0d11"/>
+  <path d="M16 4 27 8v8.5c0 6.4-4.4 10.4-11 11.5-6.6-1.1-11-5.1-11-11.5V8z"
+        fill="none" stroke="#f0a030" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M12 15.5l3 3 6-6.5" fill="none" stroke="#e05a2d" stroke-width="2.4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

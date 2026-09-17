@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" data-wasm="loading">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DBACC: Dirty Bomb Anti-Cheater Coalition</title>
+  <meta name="description" content="DBACC is the Dirty Bomb Anti-Cheater Coalition: volunteers, a council, a registry, and a bot with excellent manners toward everyone who isn't aimbotting. Led by TBaguette.">
+  <meta name="theme-color" content="#0d0d11">
+  <meta name="color-scheme" content="dark">
+  <meta content="/dbacc-site" name="dbacc-base">
+  <meta name="dbacc-build" content="0321e80 2026-09-17">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="DBACC">
+  <meta property="og:title" content="DBACC: Dirty Bomb Anti-Cheater Coalition">
+  <meta property="og:description" content="Work together or die alone. Cheat, and we handle the 'alone' part. Volunteers, a council, a registry, and a bot. Led by TBaguette.">
+  <meta property="og:image" content="https://lesplooch.github.io/dbacc-site/static/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/dbacc-site/static/dbacc.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Oswald:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/dbacc-site/static/site.b84b81ce.css">
+  <script type="module">
+    import init from "/dbacc-site/pkg/app.2dd4272b.js";
+    init().catch((e) => {
+      console.error("DBACC site: wasm failed to start", e);
+      document.documentElement.dataset.wasm = "failed";
+    });
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div id="app">
+    <!-- Static first paint. The wasm replaces everything inside #app with the
+         same markup plus the parts that need a runtime (console, routes), so
+         there is no blank page while the wasm downloads. If it never starts,
+         this is still a readable page with working links. -->
+    <header class="nav">
+      <div class="nav__inner">
+        <a class="nav__brand" href="/dbacc-site/" aria-label="DBACC home">
+          <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4 27 8v8.5c0 6.4-4.4 10.4-11 11.5-6.6-1.1-11-5.1-11-11.5V8z" fill="none" stroke="#f0a030" stroke-width="2" stroke-linejoin="round"/><path d="M12 15.5l3 3 6-6.5" fill="none" stroke="#e05a2d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="nav__word">DBACC</span>
+        </a>
+        <nav class="nav__links" aria-label="Primary">
+          <a href="/dbacc-site/bot">Bot</a>
+          <a href="/dbacc-site/coalition">Coalition</a>
+          <a href="/dbacc-site/faq">FAQ</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="page">
+      <section class="hero">
+        <div class="hero__scrim" aria-hidden="true"></div>
+        <div class="hero__inner">
+          <h1 class="hero__title">Work together or die alone.<br><span class="hero__accent">Cheat, and we handle the “alone” part.</span></h1>
+          <p class="hero__lede">DBACC, the Dirty Bomb Anti-Cheater Coalition, is volunteers, a council, a registry, and a bot with excellent manners toward everyone who isn’t aimbotting. Led by TBaguette. Not Nexon, not Splash Damage, not EAC: just the people who stayed.</p>
+          <div class="hero__actions">
+            <a class="btn" href="/dbacc-site/#how">How a ban happens</a>
+            <a class="btn btn--ghost" href="/dbacc-site/bot">About the Bot</a>
+          </div>
+          <p class="hero__note">Membership: closed. Application process: don’t cheat.</p>
+        </div>
+      </section>
+      <noscript><section class="section"><div class="container"><p class="lede">This site is a small Rust program compiled to WebAssembly, and your browser has scripts off. The words above are still true. The rest (the developer console, the status board, the FAQ) needs the program running.</p></div></section></noscript>
+    </main>
+  </div>
+</body>
+</html>
